@@ -11,6 +11,7 @@ const refs = {
   seconds: document.querySelector('span[data-seconds]'),
 };
 
+let start;
 // Об'єкт для властивостей бібліотеки flatpickr
 const options = {
   enableTime: true,
